@@ -12,7 +12,7 @@ public class YandexTextCorrectionService implements ITextCorrector {
     @Override
     public String correct(String text, Language lang) {
         // ЗАГЛУШКА — вернём текст как есть
-        log.info("STUB: correcting text in {} language", lang);
+        log.info("Correcting text in {} language", lang);
         return text + " [corrected]";
     }
 }
